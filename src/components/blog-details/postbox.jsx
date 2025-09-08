@@ -111,6 +111,7 @@ const PostboxArea = () => {
                           <img
                             src={`${BASEURL}${post.img}`}
                             alt={post.image?.alt || post.title || "Blog Post"}
+                              loading="lazy"
                           />
                         </Link>
                       </div>
@@ -121,6 +122,7 @@ const PostboxArea = () => {
                           <img
                             src={`${BASEURL}${post.img}`}
                             alt={post.image?.alt || post.title || "Blog Post"}
+                              loading="lazy"
                           />
                         </Link>
                         <button

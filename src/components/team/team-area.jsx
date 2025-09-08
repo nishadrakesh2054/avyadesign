@@ -56,7 +56,8 @@ const TeamArea = () => {
                       <div className="fix">
                         <img
                           src={`${BASEURL}${item.img?.url}`}
-                          alt={item.img?.alt || item.name || "Team Member"}
+                          alt={item.img?.alt || item.name || "Team Member"    }
+                            loading="lazy"
                         />
                       </div>
                       <div className="tp-team-overlay">

@@ -47,7 +47,7 @@ const AboutArea = () => {
             <div className="col-xl-6 col-lg-5">
               <div className="ab-wrapper-4 p-relative">
                 <div className="ab-right-img">
-                  <img src={img} alt="theme-pure" className="image-fluid" />
+                  <img src={img} alt="theme-pure" className="image-fluid"   loading="lazy" />
                 </div>
                 <div className="tp-ab-left-meta">
                   <h3>{title}</h3>

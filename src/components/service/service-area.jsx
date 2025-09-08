@@ -67,6 +67,7 @@ const ServiceArea = () => {
                             alt={
                               item.image?.alt || item.title || "Service Image"
                             }
+                              loading="lazy"
                           />
                         </a>
                       </div>

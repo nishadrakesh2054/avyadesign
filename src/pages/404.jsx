@@ -17,7 +17,7 @@ const index = () => {
                 <div className="row">
                   <div className="col-xl-12">
                     <div className="tp-error-content-box text-center mb-40">
-                      <img src="/assets/img/text-404.png" alt="theme-pure" />
+                      <img src="/assets/img/text-404.png" alt="theme-pure"    loading="lazy"/>
                     </div>
                     <div className="tp-error-text-box text-center">
                       <h4 className="error-title-sm">Oops.! Page Not Found!</h4>

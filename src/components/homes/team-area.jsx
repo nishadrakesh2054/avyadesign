@@ -100,6 +100,7 @@ const TeamArea = () => {
                                 <img
                                   src={`${BASEURL}${item.img?.url}`}
                                   alt={item.img?.alt || item.name}
+                                    loading="lazy"
                                 />
                               </a>
                             </div>

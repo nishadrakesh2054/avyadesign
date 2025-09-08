@@ -70,6 +70,7 @@ const Notice = () => {
                   alt="Notice"
                   className="img-fluid rounded"
                   style={styles.image}
+                    loading="lazy"
                 />
               </Link>
             </div>

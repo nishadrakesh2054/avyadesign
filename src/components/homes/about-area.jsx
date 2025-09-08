@@ -52,7 +52,7 @@ const AboutArea = () => {
             </div>
             <div className="col-xl-6 col-lg-12">
               <div className="tp-about-wapper2 pl-10 ">
-                <img src={right_img} alt="theme-pure" />
+                <img src={right_img} alt="theme-pure"    loading="lazy"/>
               </div>
             </div>
           </div>

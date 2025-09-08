@@ -34,7 +34,7 @@ const SkillArea = () => {
             </div>
             <div className="col-xl-6 col-lg-6">
               <div className="tp-progres-img text-start text-lg-end mb-30">
-                <img src="/assets/img/avya/parallex_1.png" alt="theme-pure" />
+                <img src="/assets/img/avya/parallex_1.png" alt="theme-pure"   loading="lazy" />
               </div>
             </div>
           </div>

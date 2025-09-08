@@ -192,7 +192,7 @@ const ServiceDetailsArea = () => {
                     <li key={i}>
                       <a href="#">
                         <span className="d-flex gap-2">
-                          <img src={item.icon} alt={item.title} />
+                          <img src={item.icon} alt={item.title}   loading="lazy"/>
 
                           {item.title}
                         </span>

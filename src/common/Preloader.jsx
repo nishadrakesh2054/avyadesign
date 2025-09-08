@@ -11,6 +11,7 @@ const Preloader = () => {
               src="/assets/img/avya/avya.png"
               alt="Avya Club Logo"
               className="preloader-logo"
+              loading="lazy"
             />
             <small className="preloader-supporting-text">
               <div>Under the management of</div>

@@ -79,6 +79,7 @@ const FeaturesLevel = () => {
               src={circle_img}
               alt="Security Features"
               className="center-img"
+                loading="lazy"
             />
             <div className="center-text">
               <h5 className="">Under the management of Vyayam Fitness Pvt. Ltd.</h5>

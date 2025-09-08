@@ -90,6 +90,7 @@ const TestimonialArea = () => {
                         <img
                           src={`${BASEURL}${item.image?.url}`}
                           alt={item.image?.alt || item.name}
+                            loading="lazy"
                         />
                         <i className="fal fa-quote-left"></i>
                       </div>

@@ -118,7 +118,8 @@ const PostboxArea = () => {
                           <Link href={`/blog-details/${item.id}`}>
                             <img
                               src={`${BASEURL}${item.img}`}
-                              alt={item.image?.alt || item.title || "Blog Post"}
+                                loading="lazy"
+                              alt={item.image?.alt || item.title || "Blog Post" }
                             />
                           </Link>
                         </div>
@@ -209,6 +210,7 @@ const PostboxArea = () => {
                               <Link href={`/blog-details/${item.id}`}>
                                 <img
                                   src={`${BASEURL}${item.img}`}
+                                    loading="lazy"
                                   alt={
                                     item.image?.alt || item.title || "Blog Post"
                                   }

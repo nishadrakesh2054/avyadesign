@@ -64,8 +64,8 @@ const slider_data = [
     title: "Swimming | Tennis | Club House",
     info: (
       <>
-        Enjoy  sports facilities, <br /> expert coaching, and a vibrant
-        community at Avya Club.
+        Enjoy sports facilities, <br /> expert coaching, and a vibrant community
+        at Avya Club.
       </>
     ),
   },

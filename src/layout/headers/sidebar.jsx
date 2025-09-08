@@ -9,7 +9,7 @@ const Sidebar = ({isOpen, setIsOpen}) => {
             <div className={`tp-sidebar-menu ${isOpen && "sidebar-opened"}`}>
                 <button className="sidebar-close"><i className="fal fa-times"></i></button>
                 <div onClick={() => setIsOpen(false)} className="side-logo mb-20">
-                    <Link href="/"><img src="/assets/img/avya/avya2.png" alt="logo" /></Link>
+                    <Link href="/"><img src="/assets/img/avya/avya2.png" alt="logo"    loading="lazy"/></Link>
                 </div>
                 <div className="mobile-menu mean-container">
                     <MobileMenus />

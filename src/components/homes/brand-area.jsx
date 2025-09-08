@@ -60,7 +60,7 @@ const BrandArea = () => {
                   <div key={i} className="col-xl">
                     <div className="tp-brand-item">
                       <a href="#">
-                        <img src={item} alt="theme-pure" />
+                        <img src={item} alt="theme-pure"   loading="lazy" />
                       </a>
                     </div>
                   </div>

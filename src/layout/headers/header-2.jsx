@@ -18,7 +18,7 @@ const HeaderTwo = () => {
               <div className="col-xl-3 col-lg-6 col-md-6 col-6">
                 <div className="logo ">
                   <Link href="/">
-                    <img src="/assets/img/avya/avyamain1.png" alt="logo" />
+                    <img src="/assets/img/avya/avyamain1.png" alt="logo"    loading="lazy"/>
                   </Link>
                 </div>
               </div>

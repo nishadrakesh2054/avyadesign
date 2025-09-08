@@ -120,6 +120,7 @@ const PortfolioArea = () => {
                             src={`${BASEURL}${item.photo.url}`}
                             alt={item.photo.alt || "Portfolio Image"}
                             className="img-fluid w-100"
+                              loading="lazy"
                           />
                         </div>
                       </div>
