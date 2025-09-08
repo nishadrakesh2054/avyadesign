@@ -4,5 +4,5 @@
 First, run the development server:
 
 ```bash
- sectox next js
+avya next js
 ```
