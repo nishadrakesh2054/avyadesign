@@ -132,7 +132,7 @@ const SliderArea = () => {
                             {item.sub_title}
                           </span>
                           <h2 className="tp-slider-title">{item.title}</h2>
-                          <p>{item.info}</p>
+                          <p className="d-none d-md-block">{item.info}</p>
                           <div className="tp-slide-btn-box mt-45">
                             <div className="slider-btn">
                               <Link href="/register" className="tp-btn">

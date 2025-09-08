@@ -28,11 +28,12 @@ const ProjectArea = dynamic(() => import("./project-area"), { ssr: false });
 const FeaturesLevel = dynamic(() => import("./features-level"), { ssr: false });
 const TeamArea = dynamic(() => import("./team-area"), { ssr: false });
 const FactArea = dynamic(() => import("./fact-area"), { ssr: false });
-const TestimonialArea = dynamic(() => import("./testimonial-area"), { ssr: false });
+const TestimonialArea = dynamic(() => import("./testimonial-area"), {
+  ssr: false,
+});
 const VideoArea = dynamic(() => import("./video-area"), { ssr: false });
 const PricingArea = dynamic(() => import("./pricing-area"), { ssr: false });
 // const BrandArea = dynamic(() => import("./brand-area"), { ssr: false });
-
 
 const HomeTwo = () => {
   return (
