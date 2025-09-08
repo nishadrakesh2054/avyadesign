@@ -91,20 +91,7 @@ const TeamArea = () => {
                 </div>
               ) : (
                 <div className="team-slider-active tp-team-space slick-initialized slick-slider">
-                  <button
-                    type="button"
-                    onClick={() => sliderRef.current?.slickPrev()}
-                    className="slick-prev slick-arrow"
-                  >
-                    <i className="far fa-long-arrow-alt-left"></i>
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => sliderRef.current?.slickNext()}
-                    className="slick-next slick-arrow"
-                  >
-                    <i className="far fa-long-arrow-alt-right"></i>
-                  </button>
+             
                   <Slider {...setting} ref={sliderRef}>
                     {teamMembers.map((item, i) => (
                       <div key={item.id || i}>

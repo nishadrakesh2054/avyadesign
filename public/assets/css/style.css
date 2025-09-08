@@ -3362,57 +3362,11 @@ img {
 .tpsvbox__title:hover {
   color: var(--tp-theme-1);
 }
-.tpsvbox__icon {
-  position: absolute;
-  bottom: -40px;
-  text-align: center;
-  left: 0;
-  right: 0;
-}
-.tpsvbox__icon a {
-  height: 80px;
-  width: 80px;
-  background-color: var(--tp-common-white);
-  border-radius: 50%;
-  line-height: 90px;
-  text-align: center;
-  display: inline-block;
-  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04);
-}
-.tpsvbox__icon a i {
-  color: var(--tp-theme-1);
-  font-size: 40px;
-}
-.tpsvbox__big-text h2 {
-  position: absolute;
-  left: 50%;
-  bottom: -25px;
-  font-size: 100px;
-  margin: 0;
-  transform: translate(-50%);
-  z-index: 1;
-  color: #f9f9f9;
-}
 
-.tab-circle {
-  position: relative;
-  z-index: 2;
-}
-.tab-circle h4 {
-  height: 80px;
-  width: 80px;
-  background-color: var(--tp-theme-1);
-  border-radius: 50%;
-  line-height: 80px;
-  text-align: center;
-  display: inline-block;
-  color: var(--tp-common-white);
-  font-size: 30px;
-  font-weight: bold;
-}
-.tab-circle h4 span {
-  font-size: 14px;
-}
+
+
+
+
 .tab-circle p {
   color: #777777;
   font-size: 14px;

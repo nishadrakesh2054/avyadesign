@@ -59,8 +59,8 @@ const ServiceArea = () => {
               {services.map((item, i) => (
                 <div key={item.id || i} className="col-lg-4 col-md-6">
                   <div className="tpsvbox mb-30">
-                    <div className="tpsvbox__thumb">
-                      <div className="fix">
+                    <div className=" ">
+                      <div className="fix ">
                         <a href={`/service-details/${item.id}`}>
                           <img
                             src={`${BASEURL}${item.image?.url}`}
@@ -72,12 +72,12 @@ const ServiceArea = () => {
                       </div>
                     </div>
 
-                    <div className="tpsvbox__content text-senter p-md-4">
-                      <div className="tpsvbox__big-text">
-                        <h2>{item.sirial || i + 1}</h2>
-                      </div>
-                      <h3 className="tpsvbox__title text-uppercase">
-                        <Link href={`/service-details/${item.id}`}>
+                    <div className="p-3 bg-light">
+                      <h3 className="text-uppercase fw-bold h4 mb-0">
+                        <Link
+                          href={`/service-details/${item.id}`}
+                          className="text-decoration-none text-dark link-hover"
+                        >
                           {item.title || "Service Item"}
                         </Link>
                       </h3>
