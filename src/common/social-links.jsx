@@ -48,7 +48,7 @@ const copy_right_text = {
     <>
       Copyright © {new Date().getFullYear()}{" "}
       <a href="#" target="_blank" rel="noopener noreferrer">
-        avya.club
+        Avya Club
       </a>
       . All Rights Reserved. | Powered by{" "}
       <a href="https://1or8.com.np" target="_blank" rel="noopener noreferrer" style={{color: '#CA2B2E', fontWeight: 'bold'}}>

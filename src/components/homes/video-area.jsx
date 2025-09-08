@@ -24,7 +24,7 @@ const VideoArea = () => {
                     intro video
                   </span>
                   <h2 className="tp-section-title">
-                    Take a Tour of Our AVYA CLUB
+                    Explore AVYA CLUB 
                   </h2>
                 </div>
               </div>

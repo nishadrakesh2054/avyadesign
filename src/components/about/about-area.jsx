@@ -7,7 +7,7 @@ const about_content = {
       Good Experience <br /> In Last
     </>
   ),
-  year_count: "10",
+  year_count: "7",
   year: "Years",
   about: "Fitness For All",
   about_title: " Destination for Wellness & Transformation",

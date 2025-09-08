@@ -56,7 +56,7 @@ const TestimonialArea = () => {
         <div className="container">
           <div className="row text-center">
             <div className="col-12">
-              <div className="tp-section-box tp-section-gray z-index p-relative mb-60">
+              <div className="tp-section-box tp-section-gray z-index p-relative mb-60 ">
                 <h3 className="tp-big-text tp-price-big tp-testimonial-big">
                   Feedback
                 </h3>
@@ -64,7 +64,7 @@ const TestimonialArea = () => {
                   testimonial
                 </span>
                 <h2 className="tp-section-title tp-price tp-section-title2">
-                  Inspiring Journeys, Honest Feedback
+              Honest Feedback
                 </h2>
               </div>
             </div>

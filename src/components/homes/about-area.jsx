@@ -6,15 +6,18 @@ const about_content = {
   title: "A Holistic Haven for Health, Fitness & Well-being",
   info: (
     <>
-      Established in 2018, Avya Club was founded to transform health and
-      wellness in Nepal. Inspired by the Sanskrit word *Avya*, meaning “pure”
-      and “first light,” we blend fitness, healing, and mindfulness into a
-      holistic experience. Spanning 110,000 sq. ft. with panoramic Himalayan
-      views, Avya is more than a gym — it’s a space for growth, recovery, and
-      performance at any level. Designed for all ages, our inclusive facilities
-      offer everything from child-friendly amenities to elite athletic services.
-      We continue to evolve with our community, always welcoming your feedback
-      as part of our journey.
+      Founded in 2018, Avya Club was created to redefine health and wellness in
+      Nepal. Inspired by the Sanskrit word Avya, meaning “pure” and “first
+      light,” we seamlessly blend fitness, healing, and mindfulness to offer a
+      truly holistic experience. <br />
+      Spread across 110,000 sq. ft. with breathtaking views of the Himalayas,
+      Avya is more than a gym - it’s a space for personal growth, recovery, and
+      peak performance, regardless of your fitness level. Our inclusive
+      facilities cater to all ages, from child-friendly zones to elite athletic
+      services. <br />
+      As we grow alongside our community, we embrace your feedback, ensuring
+      that Avya remains a place where wellness is not just a goal, but a
+      lifestyle
     </>
   ),
 
@@ -35,7 +38,7 @@ const AboutArea = () => {
                     {about}
                   </span>
                   <h2 className="tp-section-title mb-15">{title}</h2>
-                  <p>{info}</p>
+                  <p style={{ textAlign: 'justify', whiteSpace: 'pre-line'  }}>{info}</p>
                 </div>
 
                 <div className="tp-about-fea-signature d-flex align-items-center mt-25">

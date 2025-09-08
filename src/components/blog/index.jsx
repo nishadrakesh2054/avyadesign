@@ -12,7 +12,8 @@ const Blog = () => {
         <Breadcrumb
           title="Blog"
           innertitle="News Feeds"
-          backgroundImage="/assets/img/avya/blogs.jpg"
+          backgroundImage=" /assets/img/avya/bgservice.webp"
+         
         />
         <PostboxArea />
       </main>

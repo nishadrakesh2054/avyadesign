@@ -1,6 +1,7 @@
 import Link from "next/link";
-import React, { useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Slider from "react-slick";
+// const BASEURL = process.env.NEXT_PUBLIC_BASEURL;
 
 const setting = {
   fade: true,
@@ -32,8 +33,8 @@ const slider_data = [
   {
     id: 1,
     col: "col-xxl-6 col-xl-7 col-lg-8 col-md-12",
-    bg_img: "/assets/img/avya/hero_2.png",
-    sub_title: "Experience Wellness & Lifestyle",
+    bg_img: "/assets/img/avya/gym2.jpg",
+    sub_title: "Strength • Energy • Balance",
     title: "Gym | Functional Fitness | Nutrition",
     info: (
       <>
@@ -41,54 +42,62 @@ const slider_data = [
         programs, and expert nutrition plans.
       </>
     ),
-    slider_service_title: (
-      <>
-        {" "}
-        <b>Personal Training</b> <br /> + Diet Guidance{" "}
-      </>
-    ),
   },
   {
     id: 2,
     col: "col-xxl-6 col-xl-7 col-lg-8",
-    bg_img: "/assets/img/avya/hero_1.png",
-    sub_title: "Recover • Relax • Rejuvenate",
-    title: "Physiotherapy | Massage | Spa",
+    bg_img: "/assets/img/avya/bgservice.webp",
+    sub_title: "Recover • Relax • Revive",
+    title: "Physiotherapy | Wellness Massage | Spa",
     info: (
       <>
-        Achieve peak fitness with our modern gym, <br /> dynamic training
-        programs, and expert nutrition plans.
-      </>
-    ),
-    slider_service_title: (
-      <>
-        {" "}
-        <b>Personal Training</b> <br /> + Diet Guidance{" "}
+        Recover and Revive with professional physiotherapy, <br /> relaxing
+        massages, and holistic spa treatments.
       </>
     ),
   },
   {
     id: 3,
     col: "col-xxl-6 col-xl-7 col-lg-8",
-    bg_img: "/assets/img/avya/hero_3.png",
-    sub_title: "Stay Active • Stay Competitive",
+    bg_img: "/assets/img/avya/club3.jpg",
+    sub_title: "Sports • Community • Lifestyle",
     title: "Swimming | Tennis | Club House",
     info: (
       <>
-        Enjoy premium sports facilities and <br /> a vibrant community
-        experience at Avya Club.
-      </>
-    ),
-    slider_service_title: (
-      <>
-        {" "}
-        <b>Events</b> <br /> & Sports Coaching{" "}
+        Enjoy  sports facilities, <br /> expert coaching, and a vibrant
+        community at Avya Club.
       </>
     ),
   },
 ];
 const SliderArea = () => {
   const sliderRef = useRef(null);
+
+  //   const [hero, setHero] = useState([]);
+  //   const [isLoading, setIsLoading] = useState(false);
+  //   const [error, setError] = useState(null);
+
+  //   useEffect(() => {
+  //     const fetchHero = async () => {
+  //       setIsLoading(true);
+  //       setError(null);
+  //       try {
+  //         const response = await fetch(`${BASEURL}/api/banners?limit=10`);
+  //         if (!response.ok) {
+  //           throw new Error("Failed to fetch hero");
+  //         }
+  //         const data = await response.json();
+  //         const serviceItems = data.docs || [];
+  //         setHero(serviceItems);
+  //       } catch (error) {
+  //         console.error("Error fetching hero:", error);
+  //         setError("Failed to load hero. Please try again later.");
+  //       } finally {
+  //         setIsLoading(false);
+  //       }
+  //     };
+  //     fetchHero();
+  //   }, []);
 
   return (
     <>
@@ -127,7 +136,7 @@ const SliderArea = () => {
                           <div className="tp-slide-btn-box mt-45">
                             <div className="slider-btn">
                               <Link href="/register" className="tp-btn">
-                                Become Membership
+                                Become a Membership
                               </Link>
                             </div>
                           </div>

@@ -8,7 +8,11 @@ const BlogDetails = () => {
   return (
     <>
       <HeaderTwo />
-      <Breadcrumb title="Blog Details" innertitle="News Feed"  backgroundImage="/assets/img/avya/blogs.jpg" />
+      <Breadcrumb
+        title="Blog Details"
+        innertitle="News Feed"
+        backgroundImage=" /assets/img/avya/bgservice.webp"
+      />
       <PostboxArea />
       <Footer />
     </>

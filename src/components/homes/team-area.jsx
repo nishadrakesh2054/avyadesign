@@ -4,7 +4,6 @@ import Slider from "react-slick";
 import axios from "axios";
 const BASEURL = process.env.NEXT_PUBLIC_BASEURL;
 
-
 const setting = {
   slidesToShow: 4,
   arrows: false,
@@ -69,8 +68,8 @@ const TeamArea = () => {
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
-              <div className="tp-section-box tp-section-box-2 p-relative mb-45">
-                <span className="tp-section-subtitle d-inline-block right mb-10">
+              <div className="tp-section-box tp-section-box-2 p-relative mb-45 text-center">
+                <span className="tp-section-subtitle d-inline-block pre mb-10">
                   team
                 </span>
                 <h2 className="tp-section-title">The Power Behind Our Club</h2>
@@ -91,7 +90,6 @@ const TeamArea = () => {
                 </div>
               ) : (
                 <div className="team-slider-active tp-team-space slick-initialized slick-slider">
-             
                   <Slider {...setting} ref={sliderRef}>
                     {teamMembers.map((item, i) => (
                       <div key={item.id || i}>

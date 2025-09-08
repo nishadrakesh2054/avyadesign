@@ -7,14 +7,14 @@ const footer_content = {
     <>
       Avya Club blends fitness, healing, and mindfulness into a holistic
       experience. Spanning with panoramic Himalayan views, we are more than a
-      gym — a community for growth, recovery, and performance.
+      gym - a community for growth, recovery, and performance.
     </>
   ),
   get_in_touch: "Get In Touch",
   location: <>Gharipatan, Pokhara, Nepal</>,
   office_time: (
     <>
-      Open <strong>24 hours</strong>, 7 days a week{" "}
+      Open 24<strong>/</strong>7
     </>
   ),
   phone: (

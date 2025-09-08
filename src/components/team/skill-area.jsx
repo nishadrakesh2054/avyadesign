@@ -17,11 +17,11 @@ const SkillArea = () => {
                     Expert Trainers. Real Guidance.
                   </span>
                   <h2 className="tp-section-title mb-20">
-                    Connect Your Mind and with your Body
+                    Connect Your Mind With Your Body
                   </h2>
                   <p>
                     {" "}
-                    Our certified trainers don’t just coach — they share their
+                    Our certified trainers don’t just coach - they share their
                     knowledge, motivation, and proven techniques to help you
                     succeed. From strength building to endurance training,
                     you’ll gain expert insights and personalized support

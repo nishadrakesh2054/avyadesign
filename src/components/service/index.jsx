@@ -13,7 +13,7 @@ const Service = () => {
       <Breadcrumb
         title="Service"
         innertitle="Our Services"
-        backgroundImage="/assets/img/avya/services.jpg"
+        backgroundImage="/assets/img/avya/bgservice.webp"
       />
       <ServiceArea />
       <FeatureArea />

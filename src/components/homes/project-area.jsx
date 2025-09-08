@@ -4,7 +4,6 @@ import Slider from "react-slick";
 
 const BASEURL = process.env.NEXT_PUBLIC_BASEURL;
 
-
 const setting = {
   dots: false,
   centerMode: true,

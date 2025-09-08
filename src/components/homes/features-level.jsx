@@ -6,7 +6,7 @@ const features = [
     serial: "03",
     icon: "/assets/img/avya/iconservice/swim.png",
     title: "Swimming Pool",
-    description: "We provide advanced home automation.",
+    description: "Train, swim, and relax ",
   },
   {
     id: 2,
@@ -34,7 +34,7 @@ const features = [
     serial: "07",
     icon: "/assets/img/avya/iconservice/physical.png",
     title: "Physiotherapy",
-    description: "Seamless entry management.",
+    description: "Seamless entry management",
   },
   {
     id: 6,

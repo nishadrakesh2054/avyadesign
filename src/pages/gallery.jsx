@@ -12,16 +12,15 @@ const index = () => {
         pageTitle="Gallery"
         description="Explore Avya Club’s state-of-the-art gym, spa, swimming pool, and club house facilities in Nepal through our gallery."
         canonical="https://www.avyaclub.com/gallery"
-        ogImage="/assets/img/avya/hero_2.png"
+        ogImage="/assets/img/avya/bgservice.webp"
         keywords="Avya Club gallery, gym photos Nepal, spa images Kathmandu, yoga studio pictures, swimming pool photos, club house images, fitness center gallery"
-        
       />
 
       <HeaderTwo />
       <Breadcrumb
         title={" Gallery"}
         innertitle={"Explore Photos"}
-        backgroundImage="/assets/img/avya/hero_2.png"
+        backgroundImage="/assets/img/avya/bgservice.webp"
       />
 
       <PortfolioArea />
