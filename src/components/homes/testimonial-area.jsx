@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 const BASEURL = process.env.NEXT_PUBLIC_BASEURL;
 
-
 const setting = {
   slidesToShow: 3,
   arrows: false,
@@ -55,17 +54,12 @@ const TestimonialArea = () => {
       <div className="testimonial-area pt-120 pb-200 grey-bg">
         <div className="container">
           <div className="row text-center">
-            <div className="col-12">
-              <div className="tp-section-box tp-section-gray z-index p-relative mb-60 ">
-                <h3 className="tp-big-text tp-price-big tp-testimonial-big">
-                  Feedback
-                </h3>
-                <span className="tp-section-subtitle d-inline-block mb-10">
+            <div className="col-xl-12">
+              <div className="tp-section-box tp-section-box-2 p-relative mb-45 text-center">
+                <span className="tp-section-subtitle d-inline-block pre mb-10">
                   testimonial
                 </span>
-                <h2 className="tp-section-title tp-price tp-section-title2">
-              Honest Feedback
-                </h2>
+                <h2 className="tp-section-title"> Honest Feedback</h2>
               </div>
             </div>
           </div>
@@ -84,13 +78,13 @@ const TestimonialArea = () => {
               <Slider {...setting}>
                 {testimonials.map((item, i) => (
                   <div key={i} className="tp-test-slide">
-                    <div className="tp-testimonial text-center">
-                      <h4>{item.feedback}</h4>
+                    <div className=" text-center">
+                      <p>{item.feedback}</p>
                       <div className="testimonial-img">
                         <img
                           src={`${BASEURL}${item.image?.url}`}
                           alt={item.image?.alt || item.name}
-                            loading="lazy"
+                          loading="lazy"
                         />
                         <i className="fal fa-quote-left"></i>
                       </div>

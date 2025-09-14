@@ -4,58 +4,60 @@ const features = [
   {
     id: 1,
     serial: "03",
-    icon: "/assets/img/avya/iconservice/swim.png",
+    icon: "/assets/img/icons/swim.png",
     title: "Swimming Pool",
     description: "Train, swim, and relax ",
   },
   {
     id: 2,
     serial: "04",
-    icon: "/assets/img/avya/iconservice/weightlifter.png",
+    icon: "/assets/img/icons/gym.png",
     title: "GYM & Fitness",
-    description: "Protecting your digital presence",
+    description: "Strength and endurance",
   },
   {
     id: 3,
     serial: "05",
-    icon: "/assets/img/avya/iconservice/treadmill.png",
+    icon: "/assets/img/icons/fitness.png",
     title: "Functional Fitness",
-    description: "High-resolution cameras ensuring",
+    description: "Core strength workouts",
   },
   {
     id: 4,
     serial: "06",
-    icon: "/assets/img/avya/iconservice/tenniss.png",
+    icon: "/assets/img/icons/court.png",
     title: "Tennis Court",
-    description: "Smart surveillance solutions",
+    description: "Play, train, compete",
   },
   {
     id: 5,
     serial: "07",
-    icon: "/assets/img/avya/iconservice/physical.png",
+    icon: "/assets/img/icons/therapy.png",
+
     title: "Physiotherapy",
-    description: "Seamless entry management",
+    description: "Recover and heal",
   },
   {
     id: 6,
     serial: "08",
-    icon: "/assets/img/avya/iconservice/massage.png",
+    icon: "/assets/img/icons/spa.png",
     title: "Massage & Spa",
-    description: "Instant alerts and monitoring",
+    description: "Relax and rejuvenate",
   },
   {
     id: 7,
     serial: "01",
-    icon: "/assets/img/avya/iconservice/club.png",
+    icon: "/assets/img/icons/club.png",
+
     title: "Club House",
-    description: "Energy-efficient lighting",
+    description: "Socialize and unwind",
   },
   {
     id: 8,
     serial: "02",
-    icon: "/assets/img/avya/iconservice/diet.png",
+    icon: "/assets/img/icons/wellbeing.png",
     title: "Well-being & Nutrition",
-    description: "Stay connected anywhere",
+    description: "Balance and vitality",
   },
 ];
 
@@ -79,11 +81,11 @@ const FeaturesLevel = () => {
               src={circle_img}
               alt="Security Features"
               className="center-img"
-                loading="lazy"
+              loading="lazy"
             />
-            <div className="center-text">
+            {/* <div className="center-text">
               <h5 className="">Under the management of Vyayam Fitness Pvt. Ltd.</h5>
-            </div>
+            </div> */}
           </div>
 
           {features.map((item, index) => {
@@ -144,7 +146,7 @@ const FeaturesLevel = () => {
 
         .center-text h5 {
           font-size: 15px;
-          color: #3DBBAD;
+          color: #3dbbad;
         }
 
         .feature-item {
@@ -185,11 +187,6 @@ const FeaturesLevel = () => {
         .tp-fea-icon {
           margin-bottom: 15px;
           position: relative;
-        }
-
-        .tp-fea-icon i {
-          font-size: 40px;
-          color: #3dbbad;
         }
 
         .feature-title {

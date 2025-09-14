@@ -1,20 +1,34 @@
-import Link from "next/link";
 import React from "react";
 
 const fetures_content = {
   bg_img: "/assets/img/avya/bgservice.webp",
   subtitle: "features",
-  title: "Opting For Security & Making You Free",
   fetures: [
-   { id: 1, icon: "flaticon-cctv-camera", title: "Train in a Safe, Secure Space " },
-  { id: 2, icon: "flaticon-bubble-chat-1", title: "High-Quality, Reliable Services " },
-  { id: 3, icon: "flaticon-group", title: "Experienced & Certified Guidance" },
-  { id: 4, icon: "flaticon-secure", title: "24/7 Dedicated Support Team" },
-  { id: 5, icon: "flaticon-web-security", title: "Free Consultation " },
-  { id: 6, icon: "flaticon-chat", title: "Easy Contact & Quick Response" },
+    {
+      id: 1,
+      icon: "flaticon-cctv-camera",
+      title: "Safe and Secure Training Center",
+    },
+    {
+      id: 2,
+      icon: "flaticon-bubble-chat-1",
+      title: "Reliable Fitness Services",
+    },
+    {
+      id: 3,
+      icon: "flaticon-group",
+      title: "Experienced & Certified Coaches",
+    },
+    { id: 4, icon: "flaticon-secure", title: "24/7 Support Assistance" },
+    {
+      id: 5,
+      icon: "flaticon-web-security",
+      title: "Free Fitness Consultation",
+    },
+    { id: 6, icon: "flaticon-chat", title: "Easy Contact & Quick Response" },
   ],
 };
-const { bg_img, subtitle, title, fetures } = fetures_content;
+const { bg_img, subtitle, fetures } = fetures_content;
 
 const FeatureArea = () => {
   return (
@@ -42,7 +56,6 @@ const FeatureArea = () => {
                     </div>
                   </div>
                 ))}
-              
               </div>
             </div>
           </div>

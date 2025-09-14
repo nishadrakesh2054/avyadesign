@@ -1,19 +1,22 @@
 import Count from "@/src/common/count";
 import React from "react";
 
-
 const fact_data = [
   {
     id: 1,
     counte: 150,
     titile: "Happy Members",
-    description: <>We have over 150 active members achieving their fitness goals.</>,
+    description: (
+      <>We have over 150 active members achieving their fitness goals.</>
+    ),
   },
   {
     id: 2,
     counte: 45,
     titile: "Certified Trainers",
-    description: <>Our team of 45 certified trainers provide expert guidance.</>,
+    description: (
+      <>Our team of 45 certified trainers provide expert guidance.</>
+    ),
   },
   {
     id: 3,
@@ -29,7 +32,6 @@ const fact_data = [
   },
 ];
 
-
 const FactArea = () => {
   return (
     <>
@@ -38,15 +40,13 @@ const FactArea = () => {
           <div className="row counter-row">
             {fact_data.map((item, i) => (
               <div key={i} className="col-xl-3 col-md-6">
-                <div className="tp-fact mb-10">
-                  <div className="num__count"></div>
+                <div className="tp-fact mb-10 flex-column align-items-center">
                   <div className="fact-number">
                     <h2 className="counter">
                       <Count number={item.counte} />
                     </h2>
-                    <span className="per">%</span>
                   </div>
-                  <div className="fact-content">
+                  <div className="fact-content text-center">
                     <h4>{item.titile}</h4>
                     <p>{item.description}</p>
                   </div>

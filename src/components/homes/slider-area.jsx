@@ -5,8 +5,10 @@ import Slider from "react-slick";
 
 const setting = {
   fade: true,
-  slidesToShow: 1,
-  arrows: false,
+//   slidesToShow: 1,
+  arrows: false,  
+  autoplay: true,
+  autoplaySpeed: 2000,
   responsive: [
     {
       breakpoint: 992,

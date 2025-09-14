@@ -43,7 +43,7 @@ const AboutArea = () => {
 
                 <div className="tp-about-fea-signature d-flex align-items-center mt-25">
                   <div className="sig-btn mr-30 mb-10">
-                    <Link className="tp-btn-border" href="/about">
+                    <Link className="tp-btn" href="/about">
                       Learn More <i className="fal fa-long-arrow-right"></i>
                     </Link>
                   </div>

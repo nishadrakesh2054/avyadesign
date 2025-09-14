@@ -67,14 +67,14 @@ const ServiceArea = () => {
                             alt={
                               item.image?.alt || item.title || "Service Image"
                             }
-                              loading="lazy"
+                            loading="lazy"
                           />
                         </a>
                       </div>
                     </div>
 
                     <div className="p-3 bg-light">
-                      <h3 className="text-uppercase fw-bold h4 mb-0">
+                      <h3 className="text-capitalize fw-bold h4 mb-0">
                         <Link
                           href={`/service-details/${item.id}`}
                           className="text-decoration-none text-dark link-hover"
