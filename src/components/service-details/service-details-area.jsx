@@ -6,14 +6,32 @@ const BASEURL = process.env.NEXT_PUBLIC_BASEURL;
 
 const service_details_content = {
   // over-veiw-list
-over_veiw_list: [
-  { id: 1, icon: "flaticon-cctv-camera", title: "Train in a Safe, Secure Space " },
-  { id: 2, icon: "flaticon-bubble-chat-1", title: "High-Quality, Reliable Services " },
-  { id: 3, icon: "flaticon-group", title: "Experienced & Certified Guidance" },
-  { id: 4, icon: "flaticon-secure", title: "24/7 Dedicated Support Team" },
-  { id: 5, icon: "flaticon-web-security", title: "Free Consultation " },
-  { id: 6, icon: "flaticon-security", title: "Easy Contact & Quick Response" },
-],
+
+
+  over_veiw_list: [
+    {
+      id: 1,
+      icon: "flaticon-cctv-camera",
+      title: "Safe and Secure Training Center",
+    },
+    {
+      id: 2,
+      icon: "flaticon-bubble-chat-1",
+      title: "Reliable Fitness Services",
+    },
+    {
+      id: 3,
+      icon: "flaticon-group",
+      title: "Experienced & Certified Coaches",
+    },
+    { id: 4, icon: "flaticon-secure", title: "24/7 Support Assistance" },
+    {
+      id: 5,
+      icon: "flaticon-web-security",
+      title: "Free Fitness Consultation",
+    },
+    { id: 6, icon: "flaticon-chat", title: "Easy Contact & Quick Response" },
+  ],
 
   service: [
     {

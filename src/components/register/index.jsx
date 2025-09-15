@@ -377,8 +377,7 @@ const Register = () => {
                     name="time"
                     value={formData.time}
                     onChange={handleInputChange}
-                    min="09:00"
-                    max="16:00"
+               
                     required
                   />
                   {errors.time && (
