@@ -81,10 +81,23 @@ const TestimonialArea = () => {
                     <div className=" text-center">
                       <p>{item.feedback}</p>
                       <div className="testimonial-img">
-                        <img
+                        {/* <img
                           src={`${BASEURL}${item.image?.url}`}
                           alt={item.image?.alt || item.name}
                           loading="lazy"
+                        /> */}
+                        <img
+                          src={
+                            item.image?.url
+                              ? `${BASEURL}${item.image.url}`
+                              : "/assets/img/user.png"
+                          }
+                          alt={item.image?.alt || item.name || "User"}
+                          loading="lazy"
+                          onError={(e) => {
+                            e.target.onerror = null;
+                            e.target.src = "/assets/img/user.png"; 
+                          }}
                         />
                         <i className="fal fa-quote-left"></i>
                       </div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 const about_content = {
-  img: "/assets/img/avya/parallex_2.png",
+  img: "/assets/img/avya/aboutphoto.png",
   title: (
     <>
       Good Experience <br /> In Last
@@ -46,7 +46,7 @@ const AboutArea = () => {
           <div className="row">
             <div className="col-xl-6 col-lg-5">
               <div className="ab-wrapper-4 p-relative">
-                <div className="ab-right-img">
+                <div className="ab-right-img shadow">
                   <img src={img} alt="theme-pure" className="image-fluid"   loading="lazy" />
                 </div>
                 <div className="tp-ab-left-meta">

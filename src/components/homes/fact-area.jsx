@@ -4,31 +4,31 @@ import React from "react";
 const fact_data = [
   {
     id: 1,
-    counte: 150,
+    counte: 1500,
     titile: "Happy Members",
     description: (
-      <>We have over 150 active members achieving their fitness goals.</>
+      <>We have over 1500 active members achieving their fitness goals.</>
     ),
   },
   {
     id: 2,
-    counte: 45,
+    counte: 20,
     titile: "Certified Trainers",
     description: (
-      <>Our team of 45 certified trainers provide expert guidance.</>
+      <>Our team of 20 certified trainers provide expert guidance.</>
     ),
   },
   {
     id: 3,
-    counte: 30,
+    counte: 15 ,
     titile: "Fitness Programs",
-    description: <>Offering 30 specialized programs for all ages and levels.</>,
+    description: <>Offering 15 specialized programs for all ages and levels.</>,
   },
   {
     id: 4,
-    counte: 10,
+    counte: 7,
     titile: "Years of Excellence",
-    description: <>We have been transforming lives for over 10 years.</>,
+    description: <>We have been transforming lives for over 7 years.</>,
   },
 ];
 

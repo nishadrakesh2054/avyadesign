@@ -8,7 +8,7 @@ const Preloader = () => {
           {/* Branding with Logo and Supporting Text */}
           <div className="preloader-brand">
             <img
-              src="/assets/img/avya/avya.png"
+              src="./assets/img/avya/avya.png"
               alt="Avya Club Logo"
               className="preloader-logo"
               loading="lazy"
